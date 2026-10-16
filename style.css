@@ -28,9 +28,8 @@ header h1 {
 
 header p {
     font-size: 1.1rem;
-    color: #dbeafe;
+    color: lightskyblue;
 }
-
 /* Main content */
 main {
     max-width: 900px;
@@ -285,7 +284,6 @@ nav a:focus-visible {
         grid-template-columns: 1fr;
     }
 }
-```css
 /* Skills badges */
 .skills-container {
     display: flex;
@@ -311,4 +309,3 @@ nav a:focus-visible {
     background: #bfdbfe;
     transform: translateY(-3px);
 }
-```
