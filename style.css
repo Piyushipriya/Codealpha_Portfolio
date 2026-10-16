@@ -285,3 +285,30 @@ nav a:focus-visible {
         grid-template-columns: 1fr;
     }
 }
+```css
+/* Skills badges */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.skill-badge {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.skill-badge:hover {
+    background: #bfdbfe;
+    transform: translateY(-3px);
+}
+```
